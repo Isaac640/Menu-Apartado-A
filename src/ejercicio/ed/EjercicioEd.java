@@ -21,7 +21,7 @@ public class EjercicioEd {
         Scanner teclado = new Scanner(System.in);
         int menu;
         do{
-        System.out.println("Escribe un numero para acceder a estas opciones: ");
+        System.out.println("Bienvenido, Por favor escribe un numero para acceder a estas opciones: ");
         System.out.println("1- Pasar horas a segundos");
         System.out.println("2- Pasar kilometros a metros");
         System.out.println("3- Pasar Km/H a m/s");
