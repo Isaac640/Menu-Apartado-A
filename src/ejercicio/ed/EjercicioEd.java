@@ -24,7 +24,8 @@ public class EjercicioEd {
         System.out.println("Escribe un numero para acceder a estas opciones: ");
         System.out.println("1- Pasar horas a segundos");
         System.out.println("2- Pasar kilometros a metros");
-        System.out.println("3- Salir");
+        System.out.println("3- Pasar Km/H a m/s");
+        System.out.println("4- Salir");
         menu=teclado.nextInt();
         switch(menu){
             case 1:
@@ -43,8 +44,15 @@ public class EjercicioEd {
                     m=1000*km;
                     System.out.println(km+" kilometros son: "+m+" metros");
             break;
+            case 3:
+                    double kmh;
+                    double ms;
+                    System.out.println("introduce las horas");
+                    kmh=teclado.nextDouble();
+                    ms=kmh/3.6;
+                    System.out.println(kmh+" kilometros por hora son: "+ms+" metros por segundo");
         }
-        }while(menu != 3);
+        }while(menu != 4);
     }
     
 }
